@@ -1,0 +1,174 @@
+
+@charset "ISO-8859-1";
+
+body{
+	background-color: white;
+	font-family: "Arial", sans-serif;
+	overflow: hidden;
+}
+
+h1{
+	color: #7181ec;
+	font-size: 40px;
+}
+
+.idSpan{
+	color: black;
+	margin-left: 5px;
+}
+
+.btnClass{
+	position: absolute;
+	top: 65px;
+	right: 35px;
+}
+.modal{
+	width:300px;
+	height:55px;
+	position:absolute;
+}
+
+.paraSuccess{
+	color: green;
+	font-weight: bold;
+	padding:10px 10px;
+	left:10px;
+	position: absolute;
+	display: flex;
+	top:20px;
+	justify-content: center;
+}
+
+.registerSuccess{
+	font: 22px;
+	color: green;
+	left:10px;
+	font-weight: bold;
+	padding:10px 10px;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+#generateBtn1{
+	margin-top:7px;
+	display: flex;
+	font-size: 15px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	justify-content: end;
+	border: none;
+	background-color: black;
+	color: white;
+	display: inline-block;
+}
+
+
+.registerError, .detailsError{
+	font: 22px;
+	color: red;
+	font-weight: bold;
+	padding:10px 10px;
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5px;
+}
+	
+.alreadyLog{
+	font-size: 15px;
+	color: white;
+	margin-top:10px;
+	margin-bottom:5px;
+}
+
+
+label{
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	display: inline;
+}
+
+.bodySeperator{
+	display:flex;
+	justify-content: center;
+	gap: 100px;
+	align-items: center;
+}
+
+.bodyContent{
+	
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	
+}
+
+.leftContent{
+	display: flex;
+	flex: 1;	
+	background-color: white;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.rightContent{
+	display:flex;
+	flex:1;
+}
+
+form{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
+.formDiv{
+	font-size: 10px;
+	background-color: #7181ec;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 40px;
+	padding-bottom: 20px;
+}
+
+.inputs{
+	width:90%;
+	margin:10px 10px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top:30px;
+	
+}
+
+.field{
+	padding: 10px 10px;
+	margin-top: 10px;
+	border-radius: 6px;
+	border: none;
+	display: flex;
+	align-items: center;
+}
+
+#submit{
+	margin-top:7px;
+	display: flex;
+	font-size: 19px;
+	padding: 5px 10px;
+	border-radius: 5px;
+	justify-content: center;
+	border: none;
+	background-color: #3d52e2;
+	color: white;
+}
+
